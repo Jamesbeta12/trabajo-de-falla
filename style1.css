@@ -1,0 +1,28 @@
+header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+li {
+    border: solid 1px black;
+    margin-bottom: 0.2rem;
+    padding: 1.5rem;
+    background-color: rgb(222, 222, 222);
+    font-size: 1.5rem;
+}
+
+button {
+    float: right;
+    font-size: 1rem;
+    width: 9rem;
+    height: 2rem;
+    background-color: white;
+    border: solid 1px rgb(222, 222, 222);
+    cursor: pointer;
+    align-content: center;
+}
+
+button:hover {
+    background-color: rgb(222, 222, 222);
+}
